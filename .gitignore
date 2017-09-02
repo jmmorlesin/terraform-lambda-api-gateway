@@ -1,0 +1,8 @@
+.idea
+bin
+
+terraform/develop/.terraform
+terraform/develop/sensitive.tf
+*.backup
+
+*.zip
