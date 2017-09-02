@@ -13,7 +13,7 @@ Requirements
 Before you start
 ----------------
 
-The terraform script needs the file *./terraform/develop/sensitive.tf*. You can find an example of that file in *./terraform/develop/sensitive.tf.template*
+The terraform script needs the file *./terraform/develop/sensitive.tf*  You can find an example of that file in *./terraform/develop/sensitive.tf.template*
 
 This is the content of the file
 ```
