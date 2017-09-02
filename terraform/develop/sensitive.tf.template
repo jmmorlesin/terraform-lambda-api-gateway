@@ -1,0 +1,4 @@
+variable "aws_account" { default = "xxxxxxxxxxxx" }
+variable "aws_profile" { default = "xxxxxxxxxxxx" }
+variable "aws_region" { default = "xxxxxxxxxxxx" }
+
