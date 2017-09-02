@@ -1,0 +1,15 @@
+<project name="Terraform - Proof of Concept Lambda and API Gateway" default="zipApp">
+
+    <property name="target.path" value="."/>
+
+    <property name="package.name" value="poc"/>
+    <property name="package.extension" value=".zip"/>
+    <property name="app.file" value="${package.name}${package.extension}"/>
+
+    <target name="zipApp">
+        <zip destfile="${app.file}" update="false">
+            <zipfileset dir="src" />
+        </zip>
+    </target>
+
+</project>
