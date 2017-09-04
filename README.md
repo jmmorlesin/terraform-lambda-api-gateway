@@ -99,7 +99,7 @@ After that, all the resources have been created. If you go to the API Gateway se
 
 Considerations 
 --------------
-- S3 bucket to store the Terraform state file with versioning enabled to be sure we are able to rollback to a previous versions    
+- S3 bucket to store the Terraform state file with versioning enabled to be sure we are able to rollback to a previous version    
 - The connection between Terraform and AWS uses an AWS profile, there are more options to establish this connection. More details in [https://www.terraform.io/docs/providers/aws/index.html](https://www.terraform.io/docs/providers/aws/index.html)  
 - The lambda function is using Node.js just to keep the proof of concept easier. 
 - The lambda function always will be returning the same JSON with a different timestamp. 
